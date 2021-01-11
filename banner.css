@@ -1,0 +1,26 @@
+.banner {
+    
+    animation: banner 10s infinite linear alternate;
+    height: 500px;
+    width: 100%;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: center center cover no-repeat fixed;    
+    margin-top: 45px;
+}
+
+@keyframes banner {
+    0%, 30% {
+        background-image: url(../img/banner1.jpg);
+    }
+
+    33%, 66% {
+        background-image: url(../img/banner2.jpg);
+    }
+
+    66%, 100% {
+        background-image: url(../img/banner3.jpg);
+    }
+}
